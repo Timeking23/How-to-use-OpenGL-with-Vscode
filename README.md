@@ -47,7 +47,6 @@ ln -s /usr/lib/libglfw.so .
 ln -s /usr/lib/libGLEW.so .
 
 
-
 --------------------------------------------------------------------------------------------
 ##HOW TO RUN:
 1.)Ensure main.cpp exists and is in the same directory
