@@ -1,8 +1,8 @@
-##OpenGL Compilation Script Using Python
+## OpenGL Compilation Script Using Python
 
 This tutorial explains how to create and use a Python script to compile and link an OpenGL project using g++.  
-##Prerequisites  
-#Install Dependencies  
+### Prerequisites  
+#### Install Dependencies  
 Ensure you have the following installed:
     g++: GCC C++ compiler.  
     Python 3.10+.  
@@ -26,7 +26,7 @@ OpenGL_Project/
 
 Replace dependencies/include and dependencies/lib with your actual paths if needed.
 --------------------------------------------------------------------------------------------
-##INSTALL:
+## INSTALL:
 WINDOWS:
 1.)Inside the 'include' folder of your project, 
 copy the contents from the 'include' folder inside the installed glfw file
@@ -49,7 +49,7 @@ Link the library files:
   
   
 --------------------------------------------------------------------------------------------  
-##HOW TO RUN:  
+## HOW TO RUN:  
 1.)Ensure main.cpp exists and is in the same directory  
 2.)Run the Python script to compile and link:  
 python compiler.py  
