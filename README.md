@@ -37,23 +37,35 @@ and the libglfw3.a file from the "lib" folder of the installed glfw file
 for LINUX systems:  
 ```cd /home/<PATH_TO_FILE>/dependencies/include```  
 Link the header files:  
-```ln -s /usr/include/GL .  # Create a symbolic link to the GL folder```  
+```
+ln -s /usr/include/GL .  # Create a symbolic link to the GL folder
+```  
   
 Move to the lib directory:  
-```cd ../lib```  
+```
+cd ../lib
+```  
 
 Link the library files:  
-```ln -s /usr/lib/libglfw.so .```  
-```ln -s /usr/lib/libGLEW.so .```  
+```
+ln -s /usr/lib/libglfw.so .
+```  
+```
+ln -s /usr/lib/libGLEW.so .
+```  
   
   
 --------------------------------------------------------------------------------------------  
 ## HOW TO RUN:  
 1.)Ensure main.cpp exists and is in the same directory  
 2.)Run the Python script to compile and link:  
-```python compiler.py  ```  
+```
+python compiler.py
+```  
 3.)Run the program with:  
-```./app  ```  
+```
+./app
+```  
   
   
 source and thanks to :https://satviksrivastava.hashnode.dev/opengl-in-vs-code-setup#heading-installing-all-the-dependencies-required-for-open-gl  
