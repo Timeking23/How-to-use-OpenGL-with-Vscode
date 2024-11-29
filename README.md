@@ -23,11 +23,10 @@ OpenGL_Project/
 │   └── lib/         # Library files for linking
 ├── compiler.py      # The Python script [will be provided]
 ```
-
-Replace dependencies/include and dependencies/lib with your actual paths if needed.
---------------------------------------------------------------------------------------------
-## INSTALL:
-WINDOWS:
+  
+--------------------------------------------------------------------------------------------  
+## INSTALL:  
+WINDOWS:  
 1.)Inside the 'include' folder of your project,   
 copy the contents from the 'include' folder inside the installed glfw file  
 and the contents of the 'include' folder inside the installed glew file.  
