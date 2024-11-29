@@ -7,7 +7,7 @@ Ensure you have the following installed:
     g++: GCC C++ compiler.  
     Python 3.10+.  
     Libraries: GLFW, GLEW, and OpenGL.  
-For Linux: a script is provided  
+For Linux: chmod +x <script>.sh then run it  
 Windows:  
 https://www.glfw.org/  
 https://sourceforge.net/projects/glew/  
