@@ -1,6 +1,6 @@
+# this will be a tutorial on how to use OpenGl with Vscode
 ## OpenGL Compilation Script Using Python
-
-This tutorial explains how to create and use a Python script to compile and link an OpenGL project using g++.  
+This tutorial explains how to use a Python script to compile and link an OpenGL project using g++.  
 ### Prerequisites  
 #### Install Dependencies  
 Ensure you have the following installed:
