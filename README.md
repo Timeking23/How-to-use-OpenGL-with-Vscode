@@ -15,14 +15,14 @@ https://sourceforge.net/projects/glew/
 Project Directory Structure
 
 Create a directory structure like this:
-'''
+```
 OpenGL_Project/
 ├── main.cpp
 ├── dependencies/
 │   ├── include/     # Header files for GLFW, GLEW, etc.
 │   └── lib/         # Library files for linking
 ├── compiler.py      # The Python script [will be provided]
-'''
+```
 
 Replace dependencies/include and dependencies/lib with your actual paths if needed.
 --------------------------------------------------------------------------------------------
@@ -36,16 +36,16 @@ copy glew32s.lib file from the "lib" folder of the installed glew file,
 and the libglfw3.a file from the "lib" folder of the installed glfw file
 
 for LINUX systems:
-cd /home/<PATH_TO_FILE>/dependencies/include
+```cd /home/<PATH_TO_FILE>/dependencies/include```
 Link the header files:
-ln -s /usr/include/GL .  # Create a symbolic link to the GL folder
+```ln -s /usr/include/GL .  # Create a symbolic link to the GL folder```
 
 Move to the lib directory:
-cd ../lib
+```cd ../lib```
 
 Link the library files:
-ln -s /usr/lib/libglfw.so .
-ln -s /usr/lib/libGLEW.so .
+```ln -s /usr/lib/libglfw.so .```
+```ln -s /usr/lib/libGLEW.so .```
 
 
 --------------------------------------------------------------------------------------------
