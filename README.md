@@ -28,13 +28,13 @@ Replace dependencies/include and dependencies/lib with your actual paths if need
 --------------------------------------------------------------------------------------------
 ## INSTALL:
 WINDOWS:
-1.)Inside the 'include' folder of your project, 
-copy the contents from the 'include' folder inside the installed glfw file
-and the contents of the 'include' folder inside the installed glew file.
-2.)Now inside the lib folder of your project folder,
-copy glew32s.lib file from the "lib" folder of the installed glew file,
-and the libglfw3.a file from the "lib" folder of the installed glfw file
-
+1.)Inside the 'include' folder of your project,   
+copy the contents from the 'include' folder inside the installed glfw file  
+and the contents of the 'include' folder inside the installed glew file.  
+2.)Now inside the lib folder of your project folder,  
+copy glew32s.lib file from the "lib" folder of the installed glew file,  
+and the libglfw3.a file from the "lib" folder of the installed glfw file  
+  
 for LINUX systems:  
 ```cd /home/<PATH_TO_FILE>/dependencies/include```  
 Link the header files:  
