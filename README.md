@@ -1,8 +1,8 @@
 ##OpenGL Compilation Script Using Python
 
-This tutorial explains how to create and use a Python script to compile and link an OpenGL project using g++.
-##Prerequisites
-#Install Dependencies
+This tutorial explains how to create and use a Python script to compile and link an OpenGL project using g++.  
+##Prerequisites  
+#Install Dependencies  
 Ensure you have the following installed:
     g++: GCC C++ compiler.
     Python 3.10+.
@@ -35,8 +35,8 @@ and the contents of the 'include' folder inside the installed glew file.
 copy glew32s.lib file from the "lib" folder of the installed glew file,
 and the libglfw3.a file from the "lib" folder of the installed glfw file
 
-for LINUX systems:
-```cd /home/<PATH_TO_FILE>/dependencies/include```
+for LINUX systems:  
+```cd /home/<PATH_TO_FILE>/dependencies/include```  
 Link the header files:
 ```ln -s /usr/include/GL .  # Create a symbolic link to the GL folder```
 
