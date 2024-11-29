@@ -36,9 +36,9 @@ and the libglfw3.a file from the "lib" folder of the installed glfw file
   
 for LINUX systems:  
 ```cd /home/<PATH_TO_FILE>/dependencies/include```  
-Link the header files:  
+Link the header files:  # Create a symbolic link to the GL folder
 ```
-ln -s /usr/include/GL .  # Create a symbolic link to the GL folder
+ln -s /usr/include/GL .  
 ```  
   
 Move to the lib directory:  
