@@ -51,9 +51,9 @@ Link the library files:
 ## HOW TO RUN:  
 1.)Ensure main.cpp exists and is in the same directory  
 2.)Run the Python script to compile and link:  
-python compiler.py  
+```python compiler.py  ```  
 3.)Run the program with:  
-./app  
+```./app  ```  
   
   
 source and thanks to :https://satviksrivastava.hashnode.dev/opengl-in-vs-code-setup#heading-installing-all-the-dependencies-required-for-open-gl  
