@@ -15,13 +15,14 @@ https://sourceforge.net/projects/glew/
 Project Directory Structure
 
 Create a directory structure like this:
-
+'''
 OpenGL_Project/
 ├── main.cpp
 ├── dependencies/
 │   ├── include/     # Header files for GLFW, GLEW, etc.
 │   └── lib/         # Library files for linking
 ├── compiler.py      # The Python script [will be provided]
+'''
 
 Replace dependencies/include and dependencies/lib with your actual paths if needed.
 --------------------------------------------------------------------------------------------
